@@ -1,5 +1,5 @@
 import './TopBar.css'
-import Image from './profImg.png'
+import Image from './prof.png'
 
 export default function TopBar() {
   return (
