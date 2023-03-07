@@ -12,9 +12,10 @@ export default function sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
-          <li className="sidebarListItem">Life</li>
           <li className="sidebarListItem">Music</li>
           <li className="sidebarListItem">Art</li>
+          <li className="sidebarListItem">Sport</li>
+          <li className="sidebarListItem">Life</li>
         </ul>
       </div>
       <div className="sidebarItem">
