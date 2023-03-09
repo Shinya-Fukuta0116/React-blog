@@ -3,7 +3,7 @@ import Image from './kid.jpg'
 
 export default function Post() {
   return (
-    <div>
+    <div className='container'>
       <img src={Image} alt="" className="postImg" />
       <div className="postInfo">
         <div className="postCats">
@@ -14,6 +14,9 @@ export default function Post() {
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
+      <p className="postDes">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officiis illum vero, esse provident alias quibusdam beatae corrupti veritatis culpa natus atque, iste tempora neque consequatur tempore, optio ex itaque!
+      </p>
     </div>
   )
 }

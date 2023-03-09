@@ -1,9 +1,10 @@
-import Post from '../post/Post'
-import './posts.css'
+import Posts from '../post/Post'
+import './post.css'
 
-export default function Posts() {
+export default function posts() {
   return (
     <div className='posts'>
+      <Posts />
       <Posts />
       <Posts />
       <Posts />
