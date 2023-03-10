@@ -18,23 +18,31 @@
   margin: 10px;
   padding: 5px;
   width: 80%;
-  border-top: 1px solid rgb(245, 245, 245);
-  border-bottom: 1px solid rgb(245, 245, 245);
+  border-top: 1px solid rgb(96, 96, 96);
+  border-bottom: 1px solid rgb(96, 96, 96);
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   line-height: 20px;
   text-align: center;
 }
+.sideP{
+  width: 90%;
+}
+
+.sidebarList{
+  padding-left: 38px;
+  margin-bottom: 20px;
+}
 
 .sideImg{
+  align-items: center;
   margin-top: 15px;
-  width: 150px;
-  height: 200px;
+  width: 50%;
+  height: 290px;
 }
 
 .sidebarSocial{
   margin-top: 15px;
-  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,4 +52,8 @@
   font-size: 16px;
   margin-left: 10px;
   cursor: pointer;
+}
+
+.sidebarSocial{
+  padding-right: 12px;
 }

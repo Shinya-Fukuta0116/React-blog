@@ -1,4 +1,4 @@
-import './sidebar.css'
+import './sidebar.css';
 import Image from './aboutMe.png'
 
 export default function sidebar() {
