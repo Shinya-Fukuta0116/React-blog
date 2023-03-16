@@ -1,8 +1,10 @@
 import './write.css'
+import Image from './Royce59.png'
 
 export default function Write() {
   return (
     <div className='write'>
+      <img className='writeImg' src={Image} alt="" />
       <form className="witeForm">
         <div className="writeFormGroup">
           <label htmlFor="fileInput">
