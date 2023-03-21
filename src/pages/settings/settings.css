@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .settingsForm > label{
