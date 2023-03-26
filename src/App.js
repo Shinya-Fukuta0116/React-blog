@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <TopBar />
@@ -20,8 +20,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={user ? <Home /> : <Login />} />
         <Route path='/register' element={user ? <Home /> : <Register />} />
-        <Route path='/write' element={<Write />} />
-        <Route path='/settings' element={<Settings />} />
+        <Route path='/write' element={user ? <Write /> : <Register />} />
+        <Route path='/settings' element={user ? <Settings /> : <Register />} />
         <Route path='/post/:postId' element={<Single />} />
       </Routes>
     </Router>
