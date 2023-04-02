@@ -1,5 +1,7 @@
 import './sidebar.css';
 import Image from './aboutMe.png'
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 export default function sidebar() {
   return (
@@ -17,6 +19,12 @@ export default function sidebar() {
           <li className="sidebarListItem">Sport</li>
           <li className="sidebarListItem">Life</li>
         </ul>
+      </div>
+      <div className="sidebarItem">
+        <span className="sidebarTitle">CALENDAR</span>
+        <div className="sidebarCalendar">
+          <Calendar />
+        </div>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW ME</span>
