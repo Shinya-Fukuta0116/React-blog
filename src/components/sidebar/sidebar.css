@@ -57,3 +57,31 @@
 .sidebarSocial{
   padding-right: 12px;
 }
+
+.react-calendar__tile {
+  height: 80px; /* セルの高さを設定 */
+}
+
+.react-calendar__tile--active {
+  background-color: #e4e4e4; /* 選択された日付の背景色 */
+}
+
+.react-calendar__tile--hasActive {
+  background-color: #f0f0f0; /* 今日の日付の背景色 */
+}
+
+.react-calendar__tile--weekend {
+  color: red; /* 週末の日付の色 */
+}
+
+.sidebarCalendar a {
+  cursor: pointer; /* ポインターのカーソル */
+  text-decoration: none; /* 下線をなくす */
+}
+
+.tileContent {
+  position: relative;
+}
+
+
+
